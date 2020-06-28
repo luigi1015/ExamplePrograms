@@ -1,5 +1,5 @@
 CC=g++
-FLAGS=-g
+FLAGS=-g -Wall
 # The -g flag is for debugging info so that the executable can be debugged with GDB.
 
 all: example
