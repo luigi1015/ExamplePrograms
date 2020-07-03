@@ -5,7 +5,7 @@ all: compile
 
 compile: Example.java
 	$(CC) $(FLAGS) Example.java
-	jar cfe Example.jar Example Example.class
+	jar cfe Example.jar Example *.class
 
 run: Example.jar
 	java -jar Example.jar
